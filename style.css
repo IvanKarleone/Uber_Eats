@@ -21,7 +21,7 @@ body {
     border-radius: 2px;
 }
 
-/* ======================================= Main Header ======================================= */
+/* ======================================= Section Search ======================================= */
 
 .section-search .form-inline {
     margin-top: 32px;
@@ -35,6 +35,41 @@ body {
     border-right-width: 0px;
 }
 
+/* ======================================= Restaurants ======================================= */
+
+.restaurants {
+    padding-bottom: 68px;
+}
+
+.restaurants .card {
+    border: none;
+}
+
+.restaurants .card .card-body {
+    padding: 0;
+}
+
+.restaurants .card .card-body p {
+    margin-bottom: 4px;
+}
+
+.restaurants .categories {
+    color: #626262;
+    font-size: 14px;
+}
+
+.restaurants .time-delivery {
+    font-size: 13px;
+}
+
+.restaurants .card img {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* ======================================= Media Query ======================================= */
 
 @media only screen and (min-width: 992px){
@@ -42,6 +77,10 @@ body {
     .px-lg-80px {
         padding-left: 80px;
         padding-right: 80px;
+    }
+
+    .restaurants {
+        padding-bottom: 100px;
     }
 }
 
