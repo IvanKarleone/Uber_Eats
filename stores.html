@@ -15,7 +15,7 @@
 <body>
 
     <header class="main-header">
-        <nav class="navbar navbar-expand-md fixed-top">
+        <nav class="navbar navbar-expand-md px-lg-80px">
             <a class="navbar-brand" href="https://www.ubereats.com/ru-RU/" target="_blank">
                 <img src="./images/logo.png" alt="">
             </a>
@@ -25,12 +25,22 @@
                 </li>
                 <li class="nav-item">
                     <a href="#">
-                        <img src="./images/basket.png" alt="">
+                        <img class="d-none d-sm-block" src="./images/basket.png" alt="">
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <div class="section-search container-fluid px-lg-80px">
+        <div class="row">
+            <div class="col-12">
+                <form class="form-inline">
+                    <input class="form-control w-100" type="search" placeholder="Поиск по ресторанам и кухням" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
