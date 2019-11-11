@@ -4,7 +4,21 @@ body {
     font-weight: normal;
 }
 
+.btn-up {
+    background: #59BD5A;
+    border-radius: 2px;
+    width: 80px;
+    height: 80px;
+    left: auto;
+    right: 15px;
+    bottom: 24px;
+}
+
 /* ======================================= Main Header ======================================= */
+
+.main-header {
+    background: white;
+}
 
 .main-header .navbar {
     padding-top: 0;
