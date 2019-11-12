@@ -159,6 +159,18 @@ body {
     font-size: 13px;
     padding-left: 48px;
 }
+
+.footer .footer-download {
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+
+.footer .footer-privacy {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 11px;
+}
+
 /* ======================================= Media Query ======================================= */
 
 @media only screen and (min-width: 992px){
@@ -187,4 +199,9 @@ body {
         padding-top: 21px;
         padding-bottom: 21px;
     }
+
+    .mb-24px {
+        margin-bottom: 24px;
+    }
 }
+
