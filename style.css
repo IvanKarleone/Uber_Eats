@@ -159,6 +159,11 @@ body {
     font-size: 13px;
     padding-left: 48px;
 }
+
+.footer .footer-download {
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
 /* ======================================= Media Query ======================================= */
 
 @media only screen and (min-width: 992px){
