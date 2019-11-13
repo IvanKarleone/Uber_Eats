@@ -1,1 +1,1 @@
-browser-sync start --index "stores.html"  --server --files "./*.*"
+browser-sync start --index "restaurant.html"  --server --files "./*.*"
