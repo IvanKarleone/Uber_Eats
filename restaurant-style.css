@@ -64,6 +64,21 @@ body {
     margin-bottom: 54px;
 }
 
+/* ======================================= Filter Dishes ======================================= */
+
+.filter-dishes {
+    padding-top: 32px;
+    padding-bottom: 29px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.filter-dishes .row div {
+    font-size: 16px;
+    line-height: 19px;
+    padding-right: 40px;
+    color: #626262;
+}
+
 /* ======================================= Media Query ======================================= */
 
 @media only screen and (min-width: 992px){
