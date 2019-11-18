@@ -14,6 +14,10 @@ body {
     bottom: 24px;
 }
 
+.mb-32px {
+    margin-bottom: 32px;
+}
+
 /* ======================================= Main Header ======================================= */
 
 .main-header {
@@ -38,7 +42,7 @@ body {
 /* ======================================= Visiting Card ======================================= */
 
 .visiting-card {
-    background: url(./images/Pushkin.png) center no-repeat;
+    background: url(../images/Pushkin.png) center no-repeat;
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -93,10 +97,112 @@ body {
     color: #1D1D1D;
 }
 
-.types-dishes .card .card-title {
-    font-size: 16px;
-    line-height: 24px;
+.types-dishes .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 16px 0 16px 16px;
     color: #1D1D1D;
+}
+
+.types-dishes .card .card-title {
+    margin-bottom: 83px;
+    line-height: 24px;
+}
+
+.types-dishes .card .card-text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.types-dishes .card img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+/* ======================================= Footer ======================================= */
+
+.footer {
+    background: #262626;
+    color: white;
+}
+
+.footer .footer-logo {
+    padding-top: 56px;
+    padding-bottom: 41px;
+}
+
+.footer .white-border-bottom {
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, .4);
+}
+
+.footer .footer-menu {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    font-size: 13px;
+}
+
+.footer .footer-menu .dropdown {
+    width: 100%;
+    height: 40px;
+}
+
+.footer .footer-menu .btn-dropdown {
+    background: #3B3B3B;
+    color: white;
+    width: inherit;
+    height: inherit;
+    min-width: 8rem;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 47px;
+}
+
+.footer .footer-menu .dropdown .btn-dropdown img {
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    right: 8px;
+}
+
+.footer .footer-menu .dropdown .world {
+    position: absolute;
+    top: 12px;
+    bottom: 12px;
+    left: 16px;
+}
+
+.footer .footer-menu .dropdown-menu {
+    width: inherit;
+    background: #3B3B3B;
+    min-width: 8rem;
+}
+
+.footer .footer-menu .dropdown-menu .dropdown-divider {
+    border-top-color: rgba(255, 255, 255, .4);
+}
+
+.footer .footer-menu .dropdown-menu .dropdown-item {
+    color: white;
+    font-size: 13px;
+    padding-left: 48px;
+}
+
+.footer .footer-download {
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+
+.footer .footer-privacy {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 11px;
 }
 
 /* ======================================= Media Query ======================================= */
@@ -117,11 +223,16 @@ body {
     }
 
     .visiting-card .card .card-title {
-    font-size: 24px;
+        font-size: 24px;
     }
 
     .types-dishes .card .card-title {
-    font-size: 14px;
+        font-size: 14px;
+        margin-bottom: 41px;
+    }
+
+    .mb-24px {
+        margin-bottom: 24px;
     }
 }
 
